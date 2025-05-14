@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Inter", sans-serif;;
+}
+
+.example {
+    display: -ms-grid;
+    display: grid;
+    -webkit-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+    background: -webkit-gradient(linear, left top, left bottom, from(white), to(black));
+    background: -o-linear-gradient(top, white, black);
+    background: linear-gradient(to bottom, white, black);
+}
+
+body{
+    background: #222;
+    width: 1440px;
+}
+
+.wrapper{
+    margin-top: 75px;
+    margin-bottom: 75px;
+    display: flex;
+    justify-content: center;
+    column-gap: 70px;
+}
+
+.image-input{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 64px;
+    color: #fff;  
+}
+
+.login, .signup{
+    display: flex;
+    flex-direction: column;
+    background: #333;
+}
+
+.login{
+    border-radius: 18px;
+    width: 614px;
+    height: 573px;
+    padding: 33px 72px 41px 72px;
+}
+
+.signup{
+    border-radius: 12px;
+    width: 614px;
+    height: 723px;
+    padding: 33px 72px 72px 72px;
+}
+
+img{
+    margin-left: 25px;
+    position: relative;
+    top: 50%;
+}
+
+.email, .password{
+    border-radius: 10px;
+    width: 470px;
+    height: 79px;
+    font-weight: 400;
+    font-size: 24px;
+    letter-spacing: 0.01em;
+    color: #bfbfbf;
+    background: #444;
+}
+
+.image-input{
+    margin-top: 20px;
+}
+
+.names{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.login .email, .signup .email{
+    padding-left: 80px;
+}
+
+.login .password, .signup .password{
+    padding-left: 65px;
+}
+
+.email, .password, .name{
+    border: none;
+}
+
+.name{
+    background: #444;
+    border-radius: 13px;
+    width: 215px;
+    height: 79px;
+    font-weight: 400;
+    font-size: 24px;
+    letter-spacing: 0.01em;         
+    color: #bfbfbf;
+    padding-left: 25px;
+}
+
+button{
+    background: #fd4648;
+    border: none;
+    border-radius: 40px;
+    width: 344px;
+    height: 79px;
+    font-weight: 400;
+    font-size: 32px;
+    letter-spacing: 0.01em;
+    color: #fff8f5;
+    margin: 40px 0;
+}
+
+button:hover{
+    background: #93292b;
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+
+button:active{
+    background: #ea1d20;
+}
+
+.butt{
+    display: flex;
+    justify-content: center;
+}
+
+a{
+    display: flex;
+    justify-content: center;
+    font-weight: 400;
+    font-size: 21px;
+    letter-spacing: 0.01em;
+    color: #c1c1c3;    
+}
