@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Форми</title>
+    <link rel="stylesheet" href="style\normalize.css">
+    <link rel="stylesheet" href="style\style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="wrapper">
+        <form class="login" action="#">
+            <h2>Log in</h2>
+            <div class="image-input">
+                <img src="img\Email.svg" alt="email">
+                <input class="email" type="email" name="email" placeholder="Email or username" required>
+            </div>
+            <div class="image-input">  
+                <img src="img\Password.svg" alt="password">
+                <input class="password" type="password" name="password" placeholder="Password" required>
+            </div>    
+            <div class="butt"><button>Log in</button></div>
+            <a href="#">Forgot your password?</a>
+        </form>
+        <form class="signup" action="#">
+            <h2>Sing up</h2>
+            <div class="names">
+                <input class="name" type="text" name="first" placeholder="First Name" required>
+                <input class="name" type="text" name="last" placeholder="Last Name" required>
+            </div>
+            <div class="image-input">
+                <img src="img\Email.svg" alt="email">
+                <input class="email" type="email" name="email" placeholder="Email" required>
+            </div>
+            <div class="image-input">
+                <img src="img\Password.svg" alt="password">
+                <input class="password" type="password" name="password" placeholder="Password" required>
+            </div>    
+            <div class="butt"><button>Continue</button></div>
+            <a href="#">Already have an account? Log in!</a>
+        </form>
+    </div>
+</body>
+</html>
